@@ -6,7 +6,7 @@
 #define COMBO_TERM 20
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "M43y4/aAAKD"
+#define SERIAL_NUMBER "M43y4/zjAvr"
 #define LAYER_STATE_16BIT
 #define COMBO_COUNT 9
 
