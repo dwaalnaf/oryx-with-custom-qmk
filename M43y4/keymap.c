@@ -45,9 +45,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [2] = LAYOUT_voyager(
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_TRANSPARENT, KC_NO,          KC_UP,          KC_NO,          KC_TRANSPARENT,                                 KC_DOWN,        KC_RIGHT,       KC_PAGE_UP,     KC_HOME,        KC_TRANSPARENT, KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_LEFT_SHIFT,  MT(MOD_LALT, KC_LEFT),MT(MOD_LCTL, KC_DOWN),MT(MOD_LGUI, KC_RIGHT),KC_NO,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT, KC_INSERT,      
-    KC_TRANSPARENT, QK_LLCK,        KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_UP,          KC_LEFT,        KC_PGDN,        KC_END,         KC_TRANSPARENT, KC_TRANSPARENT, 
+    KC_TRANSPARENT, KC_TRANSPARENT, KC_NO,          KC_UP,          KC_NO,          KC_TRANSPARENT,                                 KC_HOME,        KC_PGDN,        KC_PAGE_UP,     KC_END,         KC_TRANSPARENT, KC_TRANSPARENT, 
+    KC_TRANSPARENT, KC_LEFT_SHIFT,  MT(MOD_LALT, KC_LEFT),MT(MOD_LCTL, KC_DOWN),MT(MOD_LGUI, KC_RIGHT),KC_NO,                                          KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       KC_TRANSPARENT, KC_INSERT,      
+    KC_TRANSPARENT, QK_LLCK,        KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT, KC_TRANSPARENT, 
                                                     KC_TRANSPARENT, OSM(MOD_LSFT),                                  KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [3] = LAYOUT_voyager(
