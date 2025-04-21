@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRANSPARENT, KC_Q,           KC_W,           LT(5,KC_E),     KC_R,           KC_T,                                           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_BSLS,        
     KC_TAB,         MT(MOD_LGUI, KC_A),MT(MOD_LALT, KC_S),MT(MOD_LCTL, KC_D),MT(MOD_LSFT, KC_F),KC_G,                                           KC_H,           MT(MOD_RSFT, KC_J),MT(MOD_RCTL, KC_K),MT(MOD_RALT, KC_L),MT(MOD_RGUI, KC_SCLN),KC_QUOTE,       
     TD(DANCE_0),    KC_Z,           KC_X,           KC_C,           LT(1,KC_V),     KC_B,                                           KC_N,           LT(4,KC_M),     KC_COMMA,       KC_DOT,         KC_SLASH,       KC_ENTER,       
-                                                    LT(2,KC_ESCAPE),OSM(MOD_LSFT),                                  MEH_T(KC_SPACE),OSL(3)
+                                                    OSM(MOD_LSFT),  LT(2,KC_ESCAPE),                                MEH_T(KC_SPACE),OSL(3)
   ),
   [1] = LAYOUT_voyager(
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
@@ -33,14 +33,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [2] = LAYOUT_voyager(
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_TRANSPARENT, KC_NO,          KC_UP,          KC_NO,          KC_TRANSPARENT,                                 KC_DOWN,        KC_RIGHT,       KC_PGDN,        KC_END,         KC_TRANSPARENT, KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_LEFT_SHIFT,  MT(MOD_LALT, KC_LEFT),MT(MOD_LCTL, KC_DOWN),MT(MOD_LGUI, KC_RIGHT),KC_NO,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT, KC_INSERT,      
-    KC_TRANSPARENT, QK_LLCK,        KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_UP,          KC_LEFT,        KC_PAGE_UP,     KC_HOME,        KC_TRANSPARENT, KC_TRANSPARENT, 
-                                                    KC_TRANSPARENT, OSM(MOD_LSFT),                                  KC_TRANSPARENT, KC_TRANSPARENT
+    KC_TRANSPARENT, KC_TRANSPARENT, KC_PAGE_UP,     KC_UP,          KC_PGDN,        KC_TRANSPARENT,                                 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT, KC_TRANSPARENT, 
+    KC_TRANSPARENT, MT(MOD_LGUI, KC_HOME),MT(MOD_LALT, KC_LEFT),MT(MOD_LCTL, KC_DOWN),MT(MOD_LSFT, KC_RIGHT),KC_END,                                         KC_NO,          KC_RIGHT_SHIFT, KC_RIGHT_CTRL,  KC_RIGHT_ALT,   KC_RIGHT_GUI,   KC_INSERT,      
+    KC_TRANSPARENT, QK_LLCK,        KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT, KC_TRANSPARENT, 
+                                                    KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [3] = LAYOUT_voyager(
-    KC_GRAVE,       KC_EXLM,        KC_AT,          KC_HASH,        KC_DLR,         KC_PERC,                                        KC_CIRC,        KC_AMPR,        KC_ASTR,        KC_LPRN,        KC_RPRN,        KC_TRANSPARENT, 
-    KC_TILD,        KC_TRANSPARENT, KC_MINUS,       KC_LCBR,        KC_RCBR,        KC_PERC,                                        KC_DOWN,        KC_RIGHT,       KC_ASTR,        KC_UNDS,        KC_TRANSPARENT, KC_PIPE,        
+    KC_TRANSPARENT, KC_EXLM,        KC_AT,          KC_HASH,        KC_DLR,         KC_PERC,                                        KC_CIRC,        KC_AMPR,        KC_ASTR,        KC_LPRN,        KC_RPRN,        KC_TRANSPARENT, 
+    KC_GRAVE,       KC_TILD,        KC_MINUS,       KC_LCBR,        KC_RCBR,        KC_PERC,                                        KC_TRANSPARENT, KC_TRANSPARENT, KC_ASTR,        KC_UNDS,        KC_TRANSPARENT, KC_PIPE,        
     KC_TRANSPARENT, KC_AT,          KC_PLUS,        KC_LPRN,        KC_RPRN,        KC_EQUAL,                                       KC_CIRC,        KC_COLN,        KC_EXLM,        KC_DLR,         KC_BSLS,        KC_DQUO,        
     KC_TRANSPARENT, QK_LLCK,        KC_HASH,        KC_LBRC,        KC_RBRC,        LSFT(KC_INSERT),                                KC_UP,          KC_LEFT,        KC_LABK,        KC_RABK,        KC_QUES,        KC_TRANSPARENT, 
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
